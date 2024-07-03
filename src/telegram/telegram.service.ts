@@ -45,6 +45,7 @@ export class TelegramService implements OnModuleInit {
       } else if (message === '/help') {
         this.bot.sendMessage(chatId,'This is help message')
       }
+      
     })
 
   }
